@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>TMikuczewski.SoapNet</AssemblyName>
+    <RootNamespace>TMikuczewski.SoapNet</RootNamespace>
+    <RepositoryType>git</RepositoryType>
+    <Version>0.1.0</Version>
+    <Title>SoapNet</Title>
+    <Product>SoapNet</Product>
+    <Authors>Tomasz Mikuczewski</Authors>
+    <Copyright>Copyright (c) Tomasz Mikuczewski</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/tmikuczewski/SoapNet</RepositoryUrl>
+    <PackageId>TMikuczewski.SoapNet</PackageId>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/tmikuczewski/SoapNet</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageTags>dotnet;soap</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
